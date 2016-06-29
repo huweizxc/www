@@ -7,6 +7,8 @@ body{
 	border-bottom: 1px solid #ccc;
 	line-height: 30px;
 	font-size: 13px;
+	height: 40px;
+	line-height: 40px;
 }
 .ml10{
 	margin-left: 10px;
@@ -17,3 +19,4 @@ body{
 .mt10{
 	margin-top: 10px;
 }
+
