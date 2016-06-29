@@ -1,0 +1,58 @@
+.mid{
+	width: 100%;
+	margin: 0 ;
+	background-color: #FFFFFF;
+	font-family: "微软雅黑";
+}
+body{
+	background-color: #FFFFFF;
+}
+.mid-top{
+	border-bottom:1px solid #CCCCCC;
+}
+h1{
+	text-align: center;
+	margin: 30px auto;
+}
+.order{
+	margin: 30px;
+}
+.fz{
+	font-weight: bolder;
+}
+.cblue{
+	color: blue;
+}
+.cred{
+	color: red;
+}
+.cblack{
+	color: #000000;
+}
+#txt {
+    border: 1px solid #C8C8C8;
+    font-size: 14px;
+    color: #c8c8c8;
+    width: 90%;
+    margin: 30px 5%;
+    height: 70px;
+    vertical-align: top;
+}
+#suspend{
+	padding: 5px 15px;
+	border-radius: 5px;
+	background-color: yellow;
+}
+.tac{
+	width: 80px;
+	margin: 0 auto;
+}
+#recovery{
+	padding: 5px 15px;
+	border-radius: 5px;
+	background-color:#CCCCCC;
+}
+.tip{
+	margin: 30px 60px;
+	color: #ccc;
+}

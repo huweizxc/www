@@ -1,0 +1,19 @@
+body{
+	font-family: "微软雅黑";
+}
+.lll{
+	height: 30px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	line-height: 30px;
+	font-size: 13px;
+}
+.ml10{
+	margin-left: 10px;
+}
+.mr10{
+	margin-right: 10px;
+}
+.mt10{
+	margin-top: 10px;
+}

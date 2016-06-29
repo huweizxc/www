@@ -1,0 +1,45 @@
+.upload_main{background-color:#fbfbfb}
+.upload_choose{padding:1em}
+.upload_drag_area{display:inline-block;margin-left:.5em;padding:4em 0;width:63%;border:1px dashed #ddd;background:#fff no-repeat 20px center;color:#999;vertical-align:middle;text-align:center}
+.upload_drag_hover{border-color:#069;box-shadow:inset 2px 2px 4px rgba(0,0,0,.5);color:#333}
+.upload_preview{overflow:hidden;width:100%;background-color:#fff}
+.upload_append_list{position:relative;float:left;margin:1em;height:100%}
+.upload_append_list:hover{cursor:pointer}
+.upload_delete{margin-left:2em}
+.upload_image{padding:0}
+.upload_submit_btn{display:none;height:32px;font-size:14px}
+.upload_progress{position:absolute;top:45px;left:25px;padding:5px;border-radius:10px;background-color:rgba(0,0,0,.6);color:#fff}
+.andArea{position:relative;top:0;padding-top:77px;border:1px dashed #E6E6E6;background:url(../img/add_img.png) no-repeat scroll center 5px transparent;color:#CCC;text-align:center;font-size:18px}
+.filePicker{display:inline-block;overflow:hidden;margin:0 auto 0;width:90%;height:44px;min-width:120px;border-radius:3px;background:none repeat scroll 0 0 #00B7EE;box-shadow:0 1px 1px rgba(0,0,0,.1);color:#FFF;font-size:18px;line-height:44px;cursor:pointer;-webkit-transition:background .2s;-moz-transition:background .2s;-o-transition:background .2s;transition:background .2s}
+.filePicker:hover{background:none repeat scroll 0 0 #00A2D4}
+.demo{margin:auto}
+.convent_choice{float:left;width:35%;height:130px}
+#fileImage{display:none}
+.status_bar{position:relative;padding:0 10px;height:auto;background-color:#FFF;vertical-align:middle;line-height:45px}
+.info{float:left;display:inline-block;color:#666}
+.buttons{position:absolute;top:6px;right:16px;line-height:30px}
+.webuploader_pick{position:relative;float:left;display:inline-block;margin-left:10px;padding:0 18px;border:1px solid #CFCFCF;border-radius:3px;background:none repeat scroll 0 0 #FFF;color:#565656;text-align:center;font-size:14px;line-height:32px;cursor:pointer;-webkit-transition:border .2s;-moz-transition:border .2s;-o-transition:border .2s;transition:border .2s;-moz-user-select:none}
+.webuploader_pick:hover{border:1px solid #BBB}
+.upload_btn{position:relative;float:left;display:inline-block;margin-left:10px;padding:0 18px;border-radius:3px;background:none repeat scroll 0 0 #00B7EE;color:#fff;text-align:center;font-size:14px;line-height:34px;cursor:pointer;-webkit-transition:background .2s;-moz-transition:background .2s;-o-transition:background .2s;transition:background .2s}
+.upload_btn:hover{background:none repeat scroll 0 0 #00A2D4}
+.file_bar{position:absolute;top:0;right:0;left:0;overflow:hidden;margin:0;margin:0;padding:0;height:0;background:none repeat scroll 0 0 #000;color:#fff;opacity:.8;-webkit-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;transition:all .5s}
+.file_bar a{position:absolute;right:10px;color:#FFF}
+.file_hover{height:30px;cursor:pointer}
+.uploadImg{margin:0}
+.file_progress{position:absolute;right:0;bottom:0;left:0;display:none;margin:0;width:0;height:8px;background:none repeat scroll 0 0 #00B7EE;text-align:center}
+.file_failure{position:absolute;right:0;bottom:0;left:0;display:none;margin:0;height:24px;background:none repeat scroll 0 0 red;color:#fff;text-align:center}
+.file_success{position:absolute;right:0;bottom:0;left:0;display:none;margin:0;height:40px;background:url(../img/success.png) no-repeat scroll right bottom transparent}
+.file_name{float:left;overflow:hidden;margin:0;width:66%;text-overflow:ellipsis;white-space:nowrap;-o-text-overflow:ellipsis}
+.file_edit{position:absolute;right:22px;display:inline;margin-top:4px;width:18px;height:18px;background:url(../img/edit_white.png) no-repeat scroll 0 0 transparent;-moz-user-select:none}
+.file_edit:hover{background:url(../img/edit_blue.png) no-repeat scroll 0 0 transparent}
+.file_del{position:absolute;right:3px;display:inline;margin-top:4px;width:18px;height:18px;background:url(../img/delete_white.png) no-repeat scroll 0 0 transparent;-moz-user-select:none}
+.file_del:hover{background:url(../img/delete_blue.png) no-repeat scroll 0 0 transparent}
+.upload_append_list a{display:table-cell;border:1px solid #DFDFDF;background:url(../img/bg.png) no-repeat scroll center 0 transparent;vertical-align:middle;text-align:center}
+.upload_append_list img{border:solid 1px #66f;vertical-align:middle}
+.uploadImg{margin:auto}
+.uploadImg img{height:auto!important;max-width:100%!important;border:none}
+.add_upload{position:relative;float:left;margin:1em;height:100%}
+.add_upload:hover{cursor:pointer}
+.add_imgBox{display:table-cell;border:1px solid #DFDFDF;vertical-align:middle;text-align:center;-webkit-transition:border .2s;-moz-transition:border .2s;-o-transition:border .2s;transition:border .2s}
+.add_imgBox:hover{border:1px solid #BBB}
+.single_main{border-top:0}

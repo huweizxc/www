@@ -1,0 +1,215 @@
+body{background-color: #FFF;}
+/*资料认证/找回密码/注册   Start=================================================================================*/
+.Robot-certified .form-group{position: relative;margin-bottom: 0;height: 50px;}
+.Robot-certified .form-group label{position: absolute;width: 20px;left: 15px;top: 15px;height: 20px;font-size: 16px; background-image: url(../img/RobotBut-login-icons.png);background-repeat: no-repeat;background-size: 20px auto;}
+.shouji{
+	background-position: 0 0;
+}
+.mima{
+	background-position: 0 -20px;
+}
+.jiaoyanma{
+	background-position: 0 -40px;
+}
+.Robot-certified .form-group .form-control{border: none;height:50px;-webkit-box-shadow:none;box-shadow:none;padding-left: 50px;}
+.Robot-certified .form-group .btn-verify-code{position: absolute;right: 12px;top: 50%;margin-top: -15px; line-height: 28px;width: 100px;height:30px;border-radius: 40px;font-size: 14px;border-color: #979797;padding: 0;}
+
+.Cross_box,.Seepass_box{
+	display: none;
+	background-color: inherit;
+	border: none;
+	top: 5px;
+	right: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+}
+.Seepass_box{
+	display: block;
+}
+.Cross_box span{display: inline-block;width: 20px;height: 20px; position: absolute; top: 10px; left: 10px;z-index: 1;background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAA7NJREFUWAnNmD1M20AUx1/isIFIWCoCKZ0qsdCBqbSVEFKKomSpqjLBxEpTQUtHFraiFiFWNljapUuiDO6ARCESEmME6YAQgQwZmgiCYEig/2f5jGNsx3YJykkX3917d+8Xv3df9pHLVKlUQufn5/Gbm5uoz+d7jO5hNfNIRc6QHUMmd3V1pYPBYJkFTpPPqWKhUHgD3ffIr2Aw4KQfoGrQ20JejUQiPx31aaZ0enr64vr6+gsgRprp2skBt+P3+z/39fVt2+pZCQEgnZycfMXzg5WOl3aArfT393/Es27W39Rl5XI5iDj5jg6vzTrdQxvH10QoFKoYx7oDpMLsQHHQqHzP9X1AjRih/Hoj7Ca8mR8PAMNmB9kW29QzNABxzEAY1Su0uByFzW96G5rLeDbV6/XfeuFDlSVJeilmn/aGeGpbAWSzWUomk7S3t2elYtl+cXFBi4uLtLS0ZKkD25pQAeJFD760XGcuLy+pVCrR8vKyKygBk8vlCJPFEgi2n6sLL4k3xCuwZRobG6NEIkG1Ws0xlIA5Ojqi3t5emp+ftxxfFSgMPnVvKoGy6XawsbFBqVSKAoEAzc7O0vDwsKkRI8zCwgJhepvqikZ1m3kkzczMvAPMWyGwew4NDdHV1RUdHBzQ7u4uDQwMUDjMe+tt8gKj9sbO4s9J+Kef0PDsdkj7kh3Uf8AIo1Vpbm4uidoT0eLkaQbV3d2tzCYRM07cZLQFt5V9iO48XPbUKHRS18dUT0+PMhM5gL3AsD0A/eFZ1hgETkhUncnJSRofH1dmHy8LHLheYdQhw2Lau8C4VeWYyefzWsPZ2RkdHh5qdS8FBuJjp+tkDOBoNErYehyvUxYGi56AjDDspunpadeLpwlU0Y+APjYRWDaZwYhFj2MqHo+7WtENhgq8GP0yNFpW7WBEp6mpKc9QmGWy463DCYyA4uf6+jql0+mm24zoI7YOv3pv4quKZXILwwN5eFNbuCr9FdN+1ZIGgkwmQ15WYD3U2tqanQmWKQzaiREr9jYC3PRMVCwWaXNzk2KxWNNd28yqLMvU0dFBo6OjZmJeobN4O4ptDajtjrB8pgXpiulfaGEj2xTnaTajvSGuwGUSXJdB8aFuHjJcFQOUdosVQc087Ms63yhR3FcaWvvDF8UJPQybawDiBr5J8o0SRZnrLUp8lb5za2VbDS7TG2f3tc3HBj1Y23yO0UNxGcHeHh+sjGB8bapWqwm4lGdiBJlPnJw58dmKcwHBKnd2dqbcftL7B6BiEc2Zm/ozAAAAAElFTkSuQmCC);background-repeat: no-repeat;background-size: cover;}
+.Seepass_box span{display: inline-block;width: 20px;height: 20px; position: absolute; top: 10px; left: 10px;z-index: 1;background-image: url(../img/RobotBut-login-icons.png);background-repeat: no-repeat;background-size: 20px auto;background-position: 0 -61px;}
+.SeeWihte span{background-position: 0 -80px;}
+
+.Robot-form-center{text-align: center;padding-top: 40px;padding-left: 15px;padding-right: 15px;}
+.Robot-form-center p{margin-top: 20px;color: #929292;}
+.Robot-form-center a{color: #f0ad4e;}
+.forgetAndRegister{padding-top: 20px;}
+/*资料认证/找回密码/注册   End=================================================================================*/
+
+
+
+/*登录页面   Start=================================================================================*/
+.Robot-login-logo{
+	padding-top: 60px;
+	margin: 0 auto;
+	width: 120px;
+	padding-bottom: 40px;
+}
+.Robot-login-logo img{
+	background-color: #DDD;
+	display: block;
+	height: 112px;
+}
+.Robot-login-from .form-group{
+	position: relative;
+}
+
+.Robot-login-from input.form-control{
+	color: #FFF;
+	border-radius: 2px;
+	font-size: 16px;
+	border-color: #E2B90E;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+			box-shadow: none;
+	height: 45px;
+}
+.Robot-login-from input::-webkit-input-placeholder,.Robot-login-from textarea::-webkit-input-placeholder { 
+    color: #A28300;
+}
+.Robot-login-from input:-moz-placeholder,.Robot-login-from textarea:-moz-placeholder { 
+    color: #A28300;
+}
+.Robot-login-from input::-moz-placeholder,.Robot-login-from textarea::-moz-placeholder { 
+    color: #A28300;
+}
+.Robot-login-from input:-ms-input-placeholder,.Robot-login-from textarea:-ms-input-placeholder { 
+    color: #A28300;
+}
+.checkbox{
+	font-size: 18px;
+}
+
+.Robot-form-login{
+	padding-top: 20px;
+}
+.Robot-form-login .btn{
+	background-color: #FFF;
+}
+
+.checkbox label{padding-left: 0;}
+.checkbox label{width: 90px;}
+.check_box{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #E2B90E;
+	border-radius: 3px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+.checkbox input[type="checkbox"]{
+	display: none;
+}
+.checkedBox{
+	background-color: inherit;
+	background-image: url(../img/icon-checked.png);
+}
+.forgetpass,.Retain-me{
+	vertical-align: middle;
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+}
+.Robot-no-account{
+	padding: 20px 0;
+	text-align: center;
+	color: #929292;
+	font-size: 15px;
+}
+.Robot-no-account a{
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFA400;
+	font-weight: bold;
+}
+.Robot-error{
+	width: 100%;
+	color: #FFF;
+	height: 36px;
+	display: none;
+	font-size: 15px;
+	line-height: 36px;
+	text-align: center;
+	background-color: #ED1C24;
+}
+.Robot-certified .Robot-cash label{width: 130px;}
+.Robot-certified .Robot-cash .form-control{text-align: right;padding-left: 150px;padding-right: 50px;}
+
+/*登录页面   End=================================================================================*/
+
+.Repair{
+	padding-bottom: 110px;
+}
+.group_box{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 5px 10px;
+	width: 100%;
+}
+.group_box .form-group{
+	width: 33.33333%;
+	padding: 10px;
+	margin-bottom: 0;
+}
+.group_box .form-group input{
+	display: block;
+	border: none;
+	font-size: 14px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #f5f3f2;
+	text-align: center;
+}
+.group_box .form-group input.cur{
+	color: #FFF;
+	background-color: #e4393c;
+}
+.tareabox{
+	padding: 0 15px 15px;
+}
+.tareabox p{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}
+.tarea{
+	width: 100%;
+	display: block;
+	padding: 5px;
+	line-height: 20px;
+	font-size: 12px;
+	border-radius: 3px;
+	border: 1px solid #DDD;
+	background-color: #FFF;
+	height: 90px;
+	margin-bottom: 15px;
+}
+.btn-need{
+	width: 100%;
+	color: #FFF;
+	background-color: #e4393c;
+}
+.needtel{
+	display: block;
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	background-color: #e4393c;
+	background-image: url(../img/telneed.png);
+	background-repeat: no-repeat;
+	background-size: 36px 36px;
+	background-position: center;
+	position: fixed;
+	left: 50%;
+	margin-left: -36px;
+	bottom: 20px;
+	box-shadow: 0 0 0 6px rgba(228, 57, 60, .2);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>接单管理</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+	
+	<meta name="keywords" content="">
+	<meta name="Description" content="" />
+	
+	<link rel="shortcut icon" href="./favicon.ico">
+	<!------ css ------------------------------------------>
+	<link href="Public/index/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="Public/index/css/normalize.css" type="text/css" rel="stylesheet">
+	<link href="Public/index/css/base.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/orders.css"/>
+	<!------ css ------------------------------------------>
+	<!------ js ------------------------------------------>
+	<script type="text/javascript" src="Public/index/js/jquery.min.js"></script>
+	<script type="text/javascript" src="Public/index/js/jquery.touchSwipe.min.js"></script>
+	<!------ js ------------------------------------------>
+</head>
+	<body>
+		<div class="mid"</div>
+			<div class="mid-top">
+				<h1 class="fz">接单管理</h1>
+				<div class="order">
+					<span class="fz">当前进行订单：<span class="cred">1</span>个</span>
+					<a><span class="fr fz cblue">查看></span></a>
+				</div>
+				<div class="order">
+					<span class="fz">已完成订单：<span class="cblack">6</span>个</span>
+					<a><span class="fr fz cblue">查看></span></a>
+				</div>
+			</div>
+			<div>
+				<div id="bot">
+				<textarea  type="text" id="txt" placeholder="请输入留言内容"></textarea>
+				<div class="tac">
+					<input type="button" id="suspend" value="暂停订单" />
+				</div>
+				<div class="tac">
+					<input type="button" id="recovery" value="恢复订单" />
+				</div>
+			</div>
+			<div class="tip">提示：当前有正在进行的订单时，暂停接单只能后续不再派发订单，当前订单必须完成。</div>
+		</div>
+	</body>
+	
+</html>
