@@ -1,14 +1,19 @@
 body{
 	font-family: "微软雅黑";
 }
+.yangshi{
+	background-color: #FFfff1;
+}
 .lll{
+	margin-left: 10px;
 	height: 30px;
-	width: 100%;
-	border-bottom: 1px solid #ccc;
 	line-height: 30px;
 	font-size: 13px;
 	height: 40px;
 	line-height: 40px;
+}
+.bb{
+	border-bottom: 1px solid #C8C8C8;
 }
 .ml10{
 	margin-left: 10px;
